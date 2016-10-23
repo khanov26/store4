@@ -34,7 +34,7 @@ class Router
                 
                 // Получаем внутренний путь из внешнего согласно правилу.
                 $internalRoute = preg_replace("~$uriPattern~", $path, $uri);
-                              
+                                
                 // Определить контроллер, action, параметры
 
                 $segments = explode('/', $internalRoute);

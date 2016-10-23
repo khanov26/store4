@@ -49,7 +49,7 @@
                             </div>
                         </div>
                     <?php endforeach; ?>                              
-
+                    <br>
                     <!-- Постраничная навигация -->
                     <?php echo $pagination->get(); ?>
 
